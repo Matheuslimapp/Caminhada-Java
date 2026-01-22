@@ -5,6 +5,6 @@ public class Aula01 {
         /* Comentarios de mutiplas linhas
         */
 
-        System.out.println("Ola, Mundo!");
+        System.out.println("Ola, Mundo!!");
     }
 }
