@@ -42,9 +42,5 @@ public class Aula04Operadores {
         boolean isPlayStationCincoCompravel = valorTotalContaCorrente > valorPs5 || valorTotalContaPoupanca > valorPs5;
         System.out.println("isPlayStationCincoCompravel "+isPlayStationCincoCompravel);
 
-
-
-
-
     }
 }
