@@ -1,6 +1,6 @@
 package introducao;
 
-public class AulaEstrutrasCondicionais02 {
+public class AulaEstruturasCondicionais02 {
     public static void main(String[] args) {
 
 
