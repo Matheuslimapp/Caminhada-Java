@@ -8,5 +8,6 @@ public class CalculadoraTest01 {
         calculadora.somaDoisNumeros();
         System.out.println("Finalizando Calculadora");
         calculadora.subtraiDoisNumeros();
+        calculadora.multiplicandoDoisNumeros(20,23);
     }
 }
