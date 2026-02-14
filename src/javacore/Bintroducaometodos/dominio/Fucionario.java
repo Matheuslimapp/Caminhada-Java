@@ -1,9 +1,10 @@
 package javacore.Bintroducaometodos.dominio;
 
 public class Fucionario {
-    public String nome;
-    public int idade;
-    public double[] salarios;
+    private String nome;
+    private int idade;
+    private double[] salarios;
+    private double soma = 0;
 
     public void imprimir(){
         System.out.println("Nome: "+ this.nome);
@@ -12,7 +13,6 @@ public class Fucionario {
         System.out.println("Salario: "+ num);
     }
     public void mediaSalario(){
-        double soma = 0;
         if (salarios == null){
             return;
         }
@@ -21,5 +21,33 @@ public class Fucionario {
         }
         soma /= salarios.length;
         System.out.println("Média Salarial: "+ soma);
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public double[] getSalarios() {
+        return salarios;
+    }
+
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
+    }
+
+    public double getMedia() {
+        return soma;
     }
 }
