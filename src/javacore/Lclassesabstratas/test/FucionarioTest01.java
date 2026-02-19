@@ -10,5 +10,7 @@ public class FucionarioTest01 {
         Desenvolvedor desenvolvedor = new Desenvolvedor("Deku", 10000);
         System.out.println(gerente);
         System.out.println(desenvolvedor);
+        gerente.imprime();
+        desenvolvedor.imprime();
     }
 }
