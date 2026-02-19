@@ -17,4 +17,8 @@ public class DateBaseLoader implements DateLoader, DateRemover {
     public void checkPermission() {
         System.out.println("Checando permissões no banco de dados");
     }
+
+    public static void retrieveMaxDatesize(){
+        System.out.println("Dentro do retrieveMaxDatesize na classe DateSaseLoader");
+    }
 }

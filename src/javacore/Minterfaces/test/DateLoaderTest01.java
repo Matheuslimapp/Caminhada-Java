@@ -1,6 +1,7 @@
 package javacore.Minterfaces.test;
 
 import javacore.Minterfaces.dominio.DateBaseLoader;
+import javacore.Minterfaces.dominio.DateLoader;
 import javacore.Minterfaces.dominio.FileLoader;
 
 public class DateLoaderTest01 {
@@ -9,9 +10,14 @@ public class DateLoaderTest01 {
         FileLoader fileLoader = new FileLoader();
         dateBaseLoader.load();
         fileLoader.load();
+
         dateBaseLoader.remove();
         fileLoader.remove();
+
         dateBaseLoader.checkPermission();
         fileLoader.checkPermission();
+
+        DateLoader.retrieveMaxDatesize();
+        DateBaseLoader.retrieveMaxDatesize();
     }
 }
