@@ -6,8 +6,8 @@ import javacore.Lclassesabstratas.dominio.Gerente;
 
 public class FucionarioTest01 {
     public static void main(String[] args) {
-        Gerente gerente = new Gerente("Nami", 10000);
-        Desenvolvedor desenvolvedor = new Desenvolvedor("Deku", 12000);
+        Gerente gerente = new Gerente("Nami", 5000);
+        Desenvolvedor desenvolvedor = new Desenvolvedor("Deku", 10000);
         System.out.println(gerente);
         System.out.println(desenvolvedor);
     }
