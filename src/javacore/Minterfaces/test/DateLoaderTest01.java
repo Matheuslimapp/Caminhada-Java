@@ -9,5 +9,9 @@ public class DateLoaderTest01 {
         FileLoader fileLoader = new FileLoader();
         dateBaseLoader.load();
         fileLoader.load();
+        dateBaseLoader.remove();
+        fileLoader.remove();
+        dateBaseLoader.checkPermission();
+        fileLoader.checkPermission();
     }
 }
