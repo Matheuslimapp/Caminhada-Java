@@ -9,6 +9,12 @@ public class RuntimeExceptionTest02 {
 //        }catch (RuntimeException e){
 //            e.printStackTrace();
 //        }
+        /**
+         *@param a
+         *@param b não pode ser zero
+         *@return
+         *@throw IllegalArgumentException caso b seja zero
+         */
     }
     private static int divisao(int a, int b){
         if (b == 0){
