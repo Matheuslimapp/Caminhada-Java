@@ -21,5 +21,6 @@ public class RelativizeTest01 {
         System.out.println("3 "+absoluto1.relativize(absoluto2));
         System.out.println("4 "+relativo1.relativize(relativo2));
         System.out.println("5 "+absoluto1.relativize(relativo1));
+
     }
 }
