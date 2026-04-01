@@ -4,7 +4,7 @@ package javacore.Zgenerics.test;
 import javacore.Zgenerics.dominio.BolsaGenerica;
 import javacore.Zgenerics.dominio.EquipamentosNinja;
 
-public class Main {
+public class MainTest01 {
     public static void main(String[] args) {
         EquipamentosNinja kunai =new EquipamentosNinja("Kunai de ferro");
         EquipamentosNinja shuriken =new EquipamentosNinja("shuriken");
