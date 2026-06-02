@@ -6,12 +6,11 @@ import javacore.ZZClambdas.service.AnimeComparators;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MethodReferenceTest01 {
+public class MethodReferenceTest02 {
     public static void main(String[] args) {
+        AnimeComparators animeComparators = new AnimeComparators();
         List<Anime> animeList = new ArrayList<>(List.of(new Anime("Berserk", 43), new Anime("One Piece", 1050), new Anime("Naturo", 300)));
-        animeList.sort((a1,a2) -> a1.getTitle().compareTo(a2.getTitle()));
-        animeList.sort(AnimeComparators::compareByTitle);
-        animeList.sort(AnimeComparators::compareByEpisodes);
+        animeList.sort(animeComparators::compareByEpisodesNonStatic);
         System.out.println(animeList);
     }
 }
