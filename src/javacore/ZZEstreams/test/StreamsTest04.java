@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class StreamTest04 {
+public class StreamsTest04 {
     public static void main(String[] args) {
         List<List<String>> devdojo = new ArrayList<>();
         List<String> graphicDesigners = List.of("Willdnei suane", "Catarina Santos", "Sandy");

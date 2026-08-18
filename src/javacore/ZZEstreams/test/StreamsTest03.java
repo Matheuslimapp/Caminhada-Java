@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class StreamTest03 {
+public class StreamsTest03 {
     private static List<LightNovel> lightNovels = new ArrayList<>(List.of(
             new LightNovel("Tensei Shittara", 8.99),
             new LightNovel("Overlod", 3.99),
